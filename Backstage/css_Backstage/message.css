@@ -1,0 +1,215 @@
+body{
+    background-color: #fff;
+}
+.content{
+    padding: 0 0 0 230px;
+}
+.content .lf-title{
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 50px;
+    background-color: #eaedf1;
+    width: 180px;
+    user-select: none;
+}
+.content .lf-title .lf-header{
+    width: 180px;
+    height: 70px;
+    background: #D9DEE4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content .lf-title .lf-header h1{
+    line-height: 70px;
+    font-size: 12px;
+    font-weight: 700;
+    text-indent: 20px;
+}
+.content .lf-title .lf-subs{
+    background-color: #eaedf1;
+}
+.content .lf-title .lf-subs ul li{
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content .lf-title .lf-subs ul li:hover{
+    background-color: #F4F6F8;
+}
+.content .lf-title .lf-subs ul li.select{
+    background-color: #FFF;
+}
+.content .lf-title .lf-subs ul li span{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 40px;
+    text-indent: 40px;
+    color: #666;
+}
+.content .lf-title .lf-subs ul li .num{
+    display: inline-block;
+    width: 23px;
+    height: 24px;
+    margin: 8px 8px;
+    background: #09C;
+    border-radius: 2px;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+}
+.ri-message .distance{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ri-message .ri-message-title{
+    padding: 25px 0;
+    border-bottom: 1px solid #DDD;
+}
+.ri-message .ri-message-title h1{
+    display: inline-block;
+    font-size: 14px;
+    height: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    text-indent: 8px;
+    border-left: 2px solid #88B7E0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+.ri-message .classify li{
+    display: inline-block;
+}
+.ri-message .classify{
+    font-size: 0;
+    padding: 20px 0;
+}
+.ri-message .classify li span{
+    display: inline-block;
+    text-align: center;
+    width: 113px;
+    height: 32px;
+    background-color: #D9DEE4;
+    color: #666;
+    line-height: 32px;
+    font-size: 12px;
+    margin-right: 8px;
+}
+.ri-message .classify li.click span{
+    background-color: #546478;
+    color: #FFFFFF;
+}
+.ri-message .message-list{
+    border: 1px solid #E1E6EB;
+    background: #FFF;
+    margin-top: 8px;
+    font-size: 12px;
+    width: -moz-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th{
+    text-align: left;
+}
+.message-list thead tr th {
+    padding: 8px 8px;
+    font-weight: normal;
+    color: #999;
+    border-bottom: 1px solid #E1E6EB;
+    background-color: #F5F6FA;
+}
+.ri-message .message-list .checkbox input{
+    margin: 4px 0 0;
+    line-height: normal;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ri-message .message-list .checkbox{
+    width: 14px;
+}
+.ri-message .message-list .state-com{
+    width: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 16px;
+    color: #428bca;
+}
+.ri-message .message-list .title-com{
+    width: 60%;
+}
+.message-list tbody tr td {
+    padding: 12px 8px;
+    border-top: 0px;
+    border-bottom: 1px solid #E1E6EB;
+    vertical-align: middle;
+}
+.message-list tbody tr:hover{
+    background-color: #F5F6FA;
+}
+.message-list tbody tr td{
+    color: #999;
+}
+.message-list tbody tr td a{
+    color: #000;
+}
+.message-list tbody tr td a:hover{
+    text-decoration: underline;
+    color: #06c;
+}
+.message-list tbody tr td a.yidu{
+    color: #999;
+    text-decoration: none;
+}
+.message-opt{
+    border: 1px solid #E1E6EB;
+    border-top: 0;
+    background: #FFF;
+    font-size: 12px;
+    width: -moz-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+}
+.message-opt .btn-left .btn{
+    display: inline-block;
+    height: 32px;
+    color: #333;
+    border: 1px solid #ddd;
+    background-color: #F7F7F7;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.message-opt .btn-left .delete{
+    width: 52px;
+}
+.message-opt .btn-left .remark-read{
+    width: 82px;
+}
+.message-opt .btn-left .all-read{
+    width: 82px;
+}
+.message-opt .btn-left .btn-defult{
+    cursor: default;
+    color: #bbb;
+}
+.message-opt tfoot tr .checkbox{
+    width: 31px;
+}
+.message-opt tfoot tr .checkbox input{
+    margin: 4px 0 0;
+}
+.message-opt tfoot tr td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #E1E6EB;
+    vertical-align: middle;
+}

@@ -1,0 +1,883 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.midstyle{
+    width: 100%;
+    min-width: 1200px;
+}
+/* 头部swipter */
+.swiper-pagination-bullet{
+    width: 30px;
+    border-radius: 0;
+}
+.top-header{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.top-header ul {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.top-header ul li ,.fix-nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    color: #FFF;
+    font-size:18px;
+    font-weight: 200;
+}
+.top-header ul li:nth-child(1) a img,.fix-nav ul li:nth-child(1) a img{
+    display: block;
+    width: 155px;
+    height: 40px;
+}
+.top-header ul li a ,.fix-nav ul li a{
+    display: inline-block;
+    line-height: 40px;
+    color: #FFF;
+    text-decoration: none;
+}
+.top-header ul li  ,.fix-nav ul li{
+    margin-left: 20px;
+}
+.top-header ul li .tel, .fix-nav ul li .tel{
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: 30px;
+    height: 40px;
+    line-height: 40px;
+    background: url(../img_school/tel.png) no-repeat  left;
+    background-size:30px 30px;
+}
+.header .swiper-slide img{
+    object-fit: none;
+    height: 670px;
+    width: 100%;
+}
+.header .swiper-slide{
+    position: relative;
+}
+.header .text_position{
+    width:1200px;
+    margin: 0 auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin:-180px 0 0 -600px;
+}
+.header .text1{
+    /* top: 190px; */
+    display: block;
+    color: #FFF;
+    font-size: 90px;
+    font-style: normal;
+    letter-spacing:12px;
+}
+.header .text2{
+    display: block;
+    width: 530px;
+    height: 85px;
+    line-height: 85px;
+    text-align: center;
+    background-color: #FFF;
+    font-size: 32px;
+    color: #f61d02;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: #f61d02 0px 3px 0px; 
+}
+.header .text3{
+    display: inline-block;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 100;
+}
+.header .text3::before{
+    display: inline-block;
+    content: " ";
+    width: 12px;
+    height: 12px;
+    background-color: #FFF;
+    margin-bottom: 2px;
+    transform: rotate(45deg);
+}
+.header .next{
+    margin-left: 100px;
+}
+/* 特色 */
+.mid{
+    margin: 0 auto;
+    width: 1200px;
+}
+.four-spe .gaodu{
+    height: 760px;
+}
+.mid .head-text{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 300;
+    color: #333;
+}
+.point{
+    display: inline-block;
+    height: 12px;
+    width: 23px;
+    vertical-align: middle;
+}
+ .left{
+    background: url(../img_school/pointlf.png) no-repeat;
+}
+.right{
+    background: url(../img_school/pointri.png) no-repeat;
+}
+.four-spe .mid .content{
+    margin: 0 auto;
+    padding-top: 92px;
+}
+.content .four-icons{
+    display: inline-block;
+    height: 167px;
+    width: 100%;
+}
+.content .bg1{
+    background: url(../img_school/spe1.png) no-repeat center;
+}
+.content .bg2{
+    background: url(../img_school/spe2.png) no-repeat center;
+}
+.content .bg3{
+    background: url(../img_school/spe3.png) no-repeat center;
+}
+.content .bg4{
+    background: url(../img_school/spe4.png) no-repeat center;
+}
+.content li {
+    text-align: center;
+    float: left;
+    width: 292.5px;
+    color: #666;
+    letter-spacing: 0;
+}
+.content .four-text1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #333;
+    letter-spacing: 0;
+    padding-bottom: 14px;
+    margin-top: 10px;
+}
+.content .four-text2{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+    color: #666;
+    letter-spacing: 0;
+    margin-top: 0px;
+}
+.content .btn-item{
+    margin: 24px auto 0;
+    width: 180px;
+    background-color: #E13062;
+    background-image: linear-gradient(-90deg,#e13062 0,#c81432 100%);
+}
+.content .btn-item a{
+    display: block;
+    line-height: 53px;
+    font-size: 20px;
+    color: #FFF;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+.content li:hover{
+    background-color: #fff4f4;
+}
+.content li:hover .btn-item{
+    display: block !important;
+}
+/* 课程 */
+.kecheng{
+    height: 535px;
+    background-color: #f7f7f7;
+}
+.kecheng .mid .head-text{
+    padding-top: 50px;
+}
+.kecheng .two-big{
+    padding-top: 50px;
+    text-align: center;
+}
+.kecheng .two-big .Two,.kecheng .two-big .Three{
+    margin-left: 10px;
+}
+.kecheng .two-big li{
+    height: 270px;
+    border-radius: 4px;
+    display: inline-block;
+    border: #333 solid 1px;
+    border-color: transparent #E8E8E8 #E8E8E8 #E8E8E8;
+}
+ .pic {
+    width: 350px;
+    height: 210px;
+}
+ .pic img{
+    width: 100%;
+    height: 100%
+}
+.pic .text{
+    z-index: 999;
+    position: relative;
+    margin: 0 auto;
+    top: -40px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    opacity: 0;
+    -moz-transition: opacity 1s,top 0.8s;	/* Firefox 4 */
+    -webkit-transition: opacity 1s,top 0.8s;	/* Safari 和 Chrome */
+    -o-transition: opacity 1s,top 0.8s;	/* Opera */
+}
+.pic .text span{
+    display: block;
+}
+.introduce{
+    height: 60px;
+    line-height: 60px;
+}
+.introduce .name{
+    font-size: 22px;
+    float: left;
+    padding-left: 10px;
+}
+.introduce .price{
+    font-size: 20px;
+    color: #db3a4e;
+    float: right;
+    padding-right: 10px;
+}
+.kecheng .two-big li:hover{
+    -webkit-box-shadow: 0 2px 10px #9A9A9A;
+    -moz-box-shadow: 0 2px 10px #9A9A9A;
+    -ms-box-shadow: 0 2px 10px #9A9A9A;
+    -o-box-shadow: 0 2px 10px #9A9A9A;
+    box-shadow: 0 2px 10px #9A9A9A;
+}
+.kecheng .two-big li:hover .introduce{
+    border-bottom: 3px solid #ea5551;
+}
+.kecheng .two-big li:hover .pic .text{
+    opacity: 1;
+    top: -140px;
+}
+.kecheng .two-big li:hover .pic{
+    background: #000;
+}
+.kecheng .two-big li:hover .pic img{
+    opacity:0.6;
+    filter: alpha(opacity=60);
+}
+.cir-kc{
+    background-color: #FFF;
+    height: 612px;
+}
+.cir-kc .gaodu{
+    padding-top: 50px;
+}
+.cir-kc .head-text .subTit{
+    font-size: 20px;
+    color: #666;
+}
+.cir-kc ul{
+    text-align: center;
+}
+.cir-kc li{
+    margin-top: 30px;
+    display: inline-block;
+}
+.cir-kc ul li img{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+.mleft{
+    margin-left: 100px;
+}
+.teacher-list{
+    height: 750px;
+    background: url(../img_school/teacherbg.png) no-repeat center;
+}
+.teacher-list .content{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 65px 0 85px 0;
+}
+.content .title{
+    text-align: center;
+    line-height: 73px;
+    vertical-align: middle;
+    font-family: PingFang SC,Helvetica,"思源黑体 CN Normal",Tahoma,Arial,DengXian,Microsoft YaHei,Simsun,SimHei,sans-serif;
+}
+.content .title span{
+    padding: 0 16px;
+    font-weight: 500;
+    font-size: 52px;
+    color: #fff;
+    letter-spacing: 0;
+    vertical-align: middle;
+}
+.content .hiden{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.content .list{
+    padding-top: 67px;
+    width: 500%;
+    overflow: hidden;
+    height: 500px;
+    -moz-transition: margin-left 1s;	/* Firefox 4 */
+    -webkit-transition: margin-left 1s;	/* Safari 和 Chrome */
+    -o-transition: margin-left 1s;	/* Opera */
+}
+.list li{
+    width: 308px;
+    height: 418px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    transform: scale(0.9);
+    -ms-transform:scale(0.9); 	/* IE 9 */
+    -moz-transform:scale(0.9); 	/* Firefox */
+    -webkit-transform:scale(0.9); /* Safari 和 Chrome */
+    -o-transform:scale(0.9); 	/* Opera */
+    font-family: PingFang SC,Helvetica,"思源黑体 CN Normal",Tahoma,Arial,DengXian,Microsoft YaHei,Simsun,SimHei,sans-serif;
+    -moz-transition: width 0.5s,height 0.5s;	/* Firefox 4 */
+    -webkit-transition: width 0.5s,height 0.5s;	/* Safari 和 Chrome */
+    -o-transition: width 0.5s,height 0.5s;	/* Opera */
+}
+.list li p{
+    padding-left: 25px;
+    margin: 0;
+}
+.list li .T-major{
+    font-size: 32px;
+    line-height: 32px;
+    padding: 25px 0 19px 25px;
+}
+.list li.active{
+    width:370px;
+    height:462px;
+}
+.list li .T-name{
+    font-size: 20px;
+    color: #ADADAD;
+    letter-spacing: 0;
+    line-height: 18.81px;
+    padding-bottom: 10px;
+}
+.list .T-one{
+    background-image: url(../img_school/teacher2.jpg);
+}
+.list .T-two{
+    background-image: url(../img_school/teacher2.jpg);
+}
+.list .T-three{
+    background-image: url(../img_school/teacher2.jpg);
+}
+.list li .content{
+    display: none;
+    text-align: left;
+    position: absolute;
+    left: 11.5px;
+    bottom: 92px;
+    width: 323px;
+    height: 94.7px;
+    padding: 12px;
+    font-size: 16px;
+    color: #FFF;
+    letter-spacing: 0;
+    background: url(../img_school/textbg.png) no-repeat left top;
+    background-size: cover;
+}
+.list li .btns{
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    background-color: #2D2D2D;
+    background-image: linear-gradient(-136deg,#2d2d2d 0,#000 100%);
+}
+.list li .btns a{
+    display: block;
+    font-size: 20px;
+    color: #FFF;
+    letter-spacing: 0;
+}
+.list li.active .btns{
+    background-color: #E62D61;
+    background-image: linear-gradient(-136deg,#e62d61 0,#c81432 100%);
+}
+.list li.active .content{
+    display: block;
+}
+.content i{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 100px;
+    background: url(../img_school/arr.png) no-repeat;
+    background-size: 68px 85px;
+    top: 354px;
+}
+.content .left{
+    left: -15px;
+}
+.content .right{
+    right: -35px;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);		/* IE 9 */
+    -webkit-transform: rotate(180deg);	/* Safari and Chrome */
+    -o-transform: rotate(180deg);		/* Opera */
+    -moz-transform: rotate(180deg);		/* Firefox */
+}
+/* 6大 */
+.six{
+    height: 800px;
+    width: 100%;
+    background-color: #FFf;
+    font-family: PingFang SC,Helvetica,"思源黑体 CN Normal",Tahoma,Arial,DengXian,Microsoft YaHei,Simsun,SimHei,sans-serif;
+}
+.six .title{
+    padding-top: 35px;
+    text-align: center;
+}
+.six .title h1{
+    font-size: 37px;
+    color: #333;
+}
+.six .title h2{
+    font-size: 17px;
+    color: #555;
+    margin-top: 18px;
+}
+.six .details{
+    margin-top: 50px;
+}
+.six .details::after,.six .details::before{
+    display: table;
+    content: " ";
+}
+.six .details::after{
+    clear: both;
+}
+.six .details .sub-title{
+    height: 39px;
+    opacity: 0;
+}
+.six .details .sub-title .sub-img{
+    vertical-align:middle;
+    line-height: 39px;
+}
+.six .details .sub-text{
+    font-size: 28px;
+    color: #444;
+    margin-left: 10px;
+}
+.six .sub-content{
+    margin-top: 10px;
+    background-color: #ddf3ff;
+    width: 285px;
+    padding: 20px;
+    font-size: 18px;
+    color: #444;
+    opacity: 0;
+}
+.six .top-dis{
+    margin-top: 35px;
+}
+.six .center-pic{
+    float: left;
+    width: 550px;
+    text-align: center;
+    padding-top: 35px;
+    opacity: 0;
+}
+/* 动画 */
+.six .details.ani .sub-title.secton1{
+    animation:tilt 0.8s linear 0.3s;
+    /* Firefox: */
+    -moz-animation:tilt 0.8s linear 0.3s;
+    /* Safari and Chrome: */
+    -webkit-animation:tilt 0.8s linear 0.3s ;
+    /* Opera: */
+    -o-animation:tilt 0.8s linear 0.3s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-content.secton1{
+    animation:up 0.8s linear 0.3s;
+    /* Firefox: */
+    -moz-animation:up 0.8s linear 0.3s;
+    /* Safari and Chrome: */
+    -webkit-animation:up 0.8s linear 0.3s ;
+    /* Opera: */
+    -o-animation:up 0.8s linear 0.3s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-title.secton2{
+    animation:tilt 0.8s linear 0.6s;
+    /* Firefox: */
+    -moz-animation:tilt 0.8s linear 0.6s;
+    /* Safari and Chrome: */
+    -webkit-animation:tilt 0.8s linear 0.6s ;
+    /* Opera: */
+    -o-animation:tilt 0.8s linear 0.6s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-content.secton2{
+    animation:up 0.8s linear 0.6s;
+    /* Firefox: */
+    -moz-animation:up 0.8s linear 0.6s;
+    /* Safari and Chrome: */
+    -webkit-animation:up 0.8s linear 0.6s ;
+    /* Opera: */
+    -o-animation:up 0.8s linear 0.6s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-title.secton3{
+    animation:tilt 0.8s linear 0.9s;
+    /* Firefox: */
+    -moz-animation:tilt 0.8s linear 0.9s;
+    /* Safari and Chrome: */
+    -webkit-animation:tilt 0.8s linear 0.9s ;
+    /* Opera: */
+    -o-animation:tilt 0.8s linear 0.9s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-content.secton3{
+    animation:up 0.8s linear 0.9s;
+    /* Firefox: */
+    -moz-animation:up 0.8s linear 0.9s;
+    /* Safari and Chrome: */
+    -webkit-animation:up 0.8s linear 0.9s ;
+    /* Opera: */
+    -o-animation:up 0.8s linear 0.9s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-title.secton4{
+    animation:tilt 0.8s linear 1.3s;
+    /* Firefox: */
+    -moz-animation:tilt 0.8s linear 1.3s;
+    /* Safari and Chrome: */
+    -webkit-animation:tilt 0.8s linear 1.3s ;
+    /* Opera: */
+    -o-animation:tilt 0.8s linear 1.3s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-content.secton4{
+    animation:up 0.8s linear 1.3s;
+    /* Firefox: */
+    -moz-animation:up 0.8s linear 1.3s;
+    /* Safari and Chrome: */
+    -webkit-animation:up 0.8s linear 1.3s ;
+    /* Opera: */
+    -o-animation:up 0.8s linear 1.3s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-title.secton5{
+    animation:tilt 0.8s linear 1.6s;
+    /* Firefox: */
+    -moz-animation:tilt 0.8s linear 1.6s;
+    /* Safari and Chrome: */
+    -webkit-animation:tilt 0.8s linear 1.6s ;
+    /* Opera: */
+    -o-animation:tilt 0.8s linear 1.6s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-content.secton5{
+    animation:up 0.8s linear 1.6s;
+    /* Firefox: */
+    -moz-animation:up 0.8s linear 1.6s;
+    /* Safari and Chrome: */
+    -webkit-animation:up 0.8s linear 1.6s ;
+    /* Opera: */
+    -o-animation:up 0.8s linear 1.6s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-title.secton6{
+    animation:tilt 0.8s linear 1.9s;
+    /* Firefox: */
+    -moz-animation:tilt 0.8s linear 1.9s;
+    /* Safari and Chrome: */
+    -webkit-animation:tilt 0.8s linear 1.9s ;
+    /* Opera: */
+    -o-animation:tilt 0.8s linear 1.9s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.six .details.ani .sub-content.secton6{
+    animation:up 0.8s linear 1.9s;
+    /* Firefox: */
+    -moz-animation:up 0.8s linear 1.9s;
+    /* Safari and Chrome: */
+    -webkit-animation:up 0.8s linear 1.9s ;
+    /* Opera: */
+    -o-animation:up 0.8s linear 1.9s ;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes tilt{
+    0% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        opacity: 0;
+    }
+    100%{
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+@keyframes up{
+    0%{
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+.six .details.ani .center-pic{
+    animation:circle 1s linear 0.3s;
+    /* Firefox: */
+    -moz-animation:circle 1s linear 0.3s;
+    /* Safari and Chrome: */
+    -webkit-animation:circle 1s linear 0.3s;
+    /* Opera: */
+    -o-animation:circle 1s linear 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes circle{
+    0%{
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0;
+    }
+    100%{
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+.six .details.ani .sub-title .sub-img, .six .details.ani .center-pic img{
+    animation:InOut 1s linear 1s infinite alternate;
+    /* Firefox: */
+    -moz-animation:InOut 1s linear 1s infinite alternate;
+    /* Safari and Chrome: */
+    -webkit-animation:InOut 1s linear 1s infinite alternate;
+    /* Opera: */
+    -o-animation:InOut 1s linear 1s infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes InOut{
+    0% {transform: scale(1)}
+    50%{ transform: scale(1.05)}
+    100%{transform: scale(1)}
+}
+/* APP */
+.app{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img_school/appbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app .app-title{
+    text-align: center;
+    color: #FFF;
+}
+.app .app-title h1{
+    opacity: 0;
+    font-size: 50px;
+    padding-top: 120px;
+}
+.app .app-title p{
+    font-size: 24px;
+    margin-top: 22px;
+}
+.app  .QRC {
+    text-align: center;
+}
+.app  .QRC img{
+    width: 178px;
+    height: 178px;
+    margin-top: 85px;
+}
+.app .code-text{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 12px;
+    text-align: center;
+}
+.app.ani .app-title h1{
+    animation:up2 1s linear;
+    /* Firefox: */
+    -moz-animation:up2 1s linear;
+    /* Safari and Chrome: */
+    -webkit-animation:up2 1s linear;
+    /* Opera: */
+    -o-animation:up2 1s linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes up2{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+.app.ani .app-title p{
+    animation:dowm 1s linear;
+    /* Firefox: */
+    -moz-animation:dowm 1s linear;
+    /* Safari and Chrome: */
+    -webkit-animation:dowm 1s linear;
+    /* Opera: */
+    -o-animation:dowm 1s linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes dowm{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+.app.ani  .QRC img{
+    animation:biger 1s linear;
+    /* Firefox: */
+    -moz-animation:biger 1s linear;
+    /* Safari and Chrome: */
+    -webkit-animation:biger 1s linear;
+    /* Opera: */
+    -o-animation:biger 1s linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes biger{
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3,.3,.3);
+        transform: scale3d(.3,.3,.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+/* 浮动导航栏 */
+.fix-nav{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #424852;
+    z-index: 998;
+    opacity: 0;
+    transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;	/* Firefox 4 */
+    -webkit-transition: opacity 0.4s;	/* Safari 和 Chrome */
+    -o-transition: opacity 0.4s;	/* Opera */
+
+}
+.fix-nav ul{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/* 图片上的文字样式 */
+.slide2-text1{
+    padding:0 0 10px 50px;
+    display: block;
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 500;
+}
+.slide2-text2{
+    display: block;
+    color: #FFF120;
+    font-size: 36px;
+    font-weight: 500;
+    padding:0 0 10px 60px;
+}
+.slide2-text3{
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    padding:0 0 25px 60px;
+}
+.slide2-text4{
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    background-color: #FFF120;
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 10px 60px;
+}

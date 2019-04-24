@@ -1,0 +1,90 @@
+.ask-q-content{
+    margin:  15px 10px 0 10px;
+    padding: 20px;
+    background-color: #FFF;
+}
+.ask-q-content .ask-q-title>span{
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    height: 22px;
+    line-height: 22px;
+}
+.ask-q-content .ask-q-title{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ededee;
+}
+.ask-q-content .ask-q-title>span::before{
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+    background-image: url(../img_Backstage/qa/icon-ques.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background-position: -30px -90px;
+}
+.ask-q-content .miaoshu{
+    padding-top: 10px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+}
+.ask-q-content .ask-con{
+    padding: 10px;
+    border: 2px solid #fe605f;
+    min-height: 142px;
+}
+.ask-q-content .ask-con .ask-con-title{
+    border: 0;
+    outline: 0;
+    height: 24px;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid #ededee;
+    padding-bottom: 10px;
+}
+.ask-q-content .ask-con textarea{
+    width: 100%;
+    border: 0;
+    min-height: 162px;
+    line-height: 26px;
+    margin-top: 10px;
+    font-size: 16px;
+    outline: 0;
+    resize: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.ask-q-content .selection{
+    margin: 20px 0;
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    background: #f7f7f7;
+}
+.ask-q-content .selection .select-title{
+    font-size: 14px;
+    line-height: 40px; 
+}
+.ask-q-content .selection select{
+    width: 100px;
+    height: 25px;
+}
+.ask-q-content .submit{
+    width: 100%;
+    padding: 10px 0;
+    text-align: right;
+}
+.ask-q-content .submit button{
+    width: 126px;
+    height: 36px;
+    line-height: 36px;
+    background: #fe605f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}

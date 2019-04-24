@@ -1,0 +1,111 @@
+/* 底部 */
+/* 页面 底部*/
+.con-friend{
+    width:100%;
+    background: #f8f8f8;
+    padding-top: 11.2px;
+    margin-top: 30px;
+}
+.friend{
+    width:1200px;
+    margin:0 auto;
+}
+.friend span{
+    font-size: 16px;
+    color: #e70000;
+}
+.friend ul{
+    margin-top:10px;
+    border-top: 1px solid #f1f1f1;
+    padding:15px 0;
+}
+.friend ul li{
+    float: left;
+    margin-bottom: 10px;
+}
+.friend ul li a{
+    padding: 0 15px;
+    color: #4c4c4c;
+    font-size: 12px;
+}
+.friend ul li a:hover{
+    color: #e70000;
+}
+.friend ul i{
+    display: inline-block;
+    float: left;
+    width: 1px;
+    height:7px;
+    background: #ccc;
+    margin-top: 3px;
+}
+.foot-btm{
+    height: 200px;
+    padding-top: 30px;
+    background-color: #24252a;
+    overflow: hidden;
+    cursor: default;
+}
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.inner::after,.inner::before{
+    content: "";
+    display: table;
+}
+.inner::after{
+    clear: both;
+}
+.foot-abus dl {
+    width: 128px;
+    height: 148px;
+    float: left;
+    text-align: center;
+}
+.foot-abus dl dt {
+    color: #999;
+    height: 34px;
+}
+.foot-abus dl dd a {
+    font-size: 12px;
+    color: #666;
+    line-height: 28px;
+}
+.foot-abus dl+dl {
+    border-left: 1px solid #393a3f;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.foot-logo {
+    width: 404px;
+}
+.fr {
+    float: right;
+}
+.foot-logo a {
+    font-size: 0;
+}
+.foot-logo .footlg-txt {
+    font-size: 12px;
+    color: #666666;
+    width: 357px;
+}
+.foot-logo .footlg-txt p {
+    line-height: 22px;
+}
+.foot-btm a:hover ,.friend a:hover{
+    text-decoration: underline;
+    color: #da0000!important;
+}
+body {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}

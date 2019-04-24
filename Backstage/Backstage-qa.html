@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css_Backstage/public.css">
+    <link rel="stylesheet" href="css_Backstage/Backstage.css">
+    <link rel="stylesheet" href="css_Backstage/qa.css">
+    <script src="js_Backstage/jquery.js"></script>
+    <script src="js_Backstage/Backstage.js"></script>
+    <script src="js_Backstage/qa.js"></script>
+    <title>学习中心-在线答疑</title>
+</head>
+<body>
+    <div class="top-nav">
+        <div class="logo lf">
+            <div class="logo-img lf">
+               <a href=""><img src="img_Backstage/logo.png" alt="文亮教招"></a> 
+            </div>
+            <div class="logo-text lf">
+               <a href=""><span>文亮教招</span></a> 
+            </div>
+        </div>
+        <div class="nav ri">
+            <div class="person hover ri">
+                <a href="" class="avator">
+                    <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                </a>
+                <div class="person-info visible">
+                    <div class="first-info">
+                        <h3>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="name">*****</span>
+                        </h3>
+                        <ul class="first-three">
+                                <li><a href="">基本资料</a></li>
+                                <li><a href="">实名认证</a></li>
+                                <li><a href="">安全设置</a></li>
+                            </ul>
+                    </div>
+                    <ul class="second-info">
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                    </ul>
+                    <div class="third-info">
+                        <a href="">退出登录</a>
+                    </div>
+                </div>
+            </div>
+            <div class="shopping-cart hover ri">
+                <a href=""><img src="img_Backstage/che.png" alt="购物车"></a>
+            </div>
+            <div class="list-one hover ri">
+                <a href="" class="nav-list">XXX</a>
+                <div class="list-one-info visible">
+                    <ul class="down-info">
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-two hover ri">
+                <a href="" class="nav-list">XXX</a>
+                <div class="list-one-info visible">
+                    <ul class="down-info">
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                        <li><a href="">xxxxxx</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="message hover ri">
+                <a href="" class="nav-list">消息
+                    <span class="red-p">5</span>
+                </a>
+                <div class="message-info visible">
+                    <div class="info-title">
+                        <span>站内消息通知</span>
+                    </div>
+                    <ul class="down-info">
+                        <li><a href="">
+                            <p>3月采购季】开年Hi购，云产品低至5折, 最高还有满返7500元</p>
+                            <p>2019 10-21 11:53</p>
+                            </a></li>
+                        <li><a href="">
+                            <p>3月采购季】开年Hi购，云产品低至5折, 最高还有满返7500元</p>
+                            <p>2019 10-21 11:53</p>
+                        </a></li>
+                        <li><a href="">
+                            <p>3月采购季】开年Hi购，云产品低至5折, 最高还有满返7500元</p>
+                            <p>2019 10-21 11:53</p>
+                        </a></li>
+                        <li><a href="">
+                            <p>3月采购季】开年Hi购，云产品低至5折, 最高还有满返7500元</p>
+                            <p>2019 10-21 11:53</p>
+                        </a></li>
+                        <li><a href="">
+                            <p>3月采购季】开年Hi购，云产品低至5折, 最高还有满返7500元</p>
+                            <p>2019 10-21 11:53</p>
+                        </a></li>
+                    </ul>
+                    <div class="read-more">
+                        <a href="">查看更多</a>
+                    </div>
+                </div>
+            </div>
+            <div class="search ri">
+                <div class="input-text">
+                    <input class="sea-box" placeholder="搜索">
+                    <a href=""><div class="sea-icon"></div></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left-nav">
+        <div class="nav">
+            <ul>
+                <li><a href="" class="nav-1"><i></i> <span>学习计划</span></a></li>
+                <li><a href="" class="nav-2"><i></i> <span>入学测试</span></a></li>
+                <li><a href="" class="nav-3"><i></i> <span>网课点播</span></a></li>
+                <li><a href="" class="nav-4"><i></i> <span>题库测试</span></a></li>
+                <li><a href="" class="nav-5"><i></i> <span>互动答疑</span></a></li>
+                <li><a href="" class="nav-6"><i></i> <span>基本资料</span></a></li>
+                <li><a href="" class="nav-7"><i></i> <span>安全设置</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="location">
+            <ul>
+                <li>
+                    <a href="">学习中心</a>
+                </li>
+                <li>
+                    <span class="guodu">></span><a href="">互动答疑</a>
+                </li>
+                <li>
+                    <span class="guodu">></span><a href="">语文</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content-lf">
+            <div class="question-items">
+                <div class="items-content">
+                    <div class="items-title">
+                        <i></i>
+                        <span>问题筛选</span>
+                        <a href="" class="ask-q ri">我要提问</a>
+                    </div>
+                    <ul class="items-xueke">
+                        <li><a href="">
+                            <div class="xueke yuwen">
+                                <i></i>
+                                <span>语文</span>
+                            </div>
+                        </a></li>
+                        <li><a href="">
+                            <div class="xueke shuxue">
+                                <i></i>
+                                <span>数学</span>
+                            </div>
+                        </a></li>
+                        <li><a href="">
+                            <div class="xueke yingyu">
+                                <i></i>
+                                <span>英语</span>
+                            </div>
+                        </a></li>
+                        <li><a href="">
+                            <div class="xueke meishu">
+                                <i></i>
+                                <span>美术</span>
+                            </div>
+                        </a></li>
+                        <li><a href="">
+                            <div class="xueke kexue">
+                                <i></i>
+                                <span>科学</span>
+                            </div>
+                        </a></li>
+                        <li><a href="">
+                            <div class="xueke xueqian">
+                                <i></i>
+                                <span>学前教育</span>
+                            </div>
+                        </a></li>
+                    </ul>
+                    <ul class="items-lv2">
+                        <li><a href="">报考信息</a></li>
+                        <li><a href="">学科条件</a></li>
+                        <li><a href="">报考信息</a></li>
+                        <li><a href="">学科条件</a></li>
+                        <li><a href="">报考信息</a></li>
+                        <li><a href="">学科条件</a></li>
+                        <li><a href="">报考信息</a></li>
+                        <li><a href="">学科条件</a></li>
+                        <li><a href="">报考信息</a></li>
+                        <li><a href="">学科条件</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="question-list">
+                <div class="list-content">
+                    <div class="list-title">
+                         <ul class="lf">
+                             <li class="select"><span>最新的</span></li>
+                             <li><span>未解决</span></li>
+                             <li><span>已解决</span></li>
+                             <li><span>我的</span></li>
+                         </ul>
+                         <div class="list-search ri">
+                            <form>
+                                <input type="text" placeholder="输入关键词搜索问题" class="input-text">
+                                <input type="submit" value="搜&nbsp;索" class="input-submit">
+                            </form>>
+                         </div>
+                    </div>
+                    <ul class="list-block newest">
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-block unsolved hidden">
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-block solved hidden">
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-block mine hidden">
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="no">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                        <li class="yes">
+                            <div class="lf">
+                                <h3><i></i><a href="">保过班的价格是多少？一期开多久？在哪里？</a></h3>
+                                <p><span>XXXX</span></p>
+                            </div>
+                            <div class="ri">
+                                <span class="start-time">2018-12-13 13:10</span>
+                                <div class="seen"><p class="seen-num">522</p><p class="seen-text">浏览</p></div>
+                                <div class="answer"><a href=""><p class="answer-num">0</p><p class="answer-text">回答</p></a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="page page1 " id="page1">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul class="page page2 hidden" id="page2">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul class="page page3 hidden" id="page3">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul class="page page4 hidden" id="page4">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-ri ri">
+            <div class="ranking">
+                <div class="rank-title">
+                    <span class="txt">专家排行</span>
+                </div>
+                <ul class="rank-person">
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-1"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">刘德贵</span>
+                            <div class="ri">
+                                <p><span class="acept-num">235</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-2"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">程辉</span>
+                            <div class="ri">
+                                <p><span class="acept-num">200</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-3"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">邓铁</span>
+                            <div class="ri">
+                                <p><span class="acept-num">198</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-4"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">周迎春</span>
+                            <div class="ri">
+                                <p><span class="acept-num">180</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-5"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">肖潇</span>
+                            <div class="ri">
+                                <p><span class="acept-num">100</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="app">
+                <div class="app-content">
+                    <img src="img_Backstage/app.png" alt="口袋考教师">
+                    <div class="app-text">
+                        <p>口袋考教师 APP</p>
+                        <span>随时随地移动管控/独有的行业咨询、在线直播/更安全，更便捷</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ranking question">
+                <div class="rank-title">
+                    <span class="txt">问答之星</span>
+                </div>
+                <ul class="rank-person">
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-1"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">XXXX</span>
+                            <div class="ri">
+                                <p><span class="acept-num">XXXX</span><span class="acept-txt">提问</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-2"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">XXXX</span>
+                            <div class="ri">
+                                <p><span class="acept-num">XXXX</span><span class="acept-txt">提问</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-3"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">XXXX</span>
+                            <div class="ri">
+                                <p><span class="acept-num">198</span><span class="acept-txt">提问</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-4"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">XXXX</span>
+                            <div class="ri">
+                                <p><span class="acept-num">180</span><span class="acept-txt">提问</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-5"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">XXXX</span>
+                            <div class="ri">
+                                <p><span class="acept-num">100</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-6"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">XXXX</span>
+                            <div class="ri">
+                                <p><span class="acept-num">100</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-7"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">XXXX</span>
+                            <div class="ri">
+                                <p><span class="acept-num">100</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="per-inner">
+                            <i class="num num-8"></i>
+                            <img src="img_Backstage/default_ava.jpg" alt="头像" class="ava-img">
+                            <span class="per-text">XXXX</span>
+                            <div class="ri">
+                                <p><span class="acept-num">100</span><span class="acept-txt">采纳</span></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>
